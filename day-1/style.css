@@ -3,6 +3,10 @@ header{
     font-family:"Edu TAS Beginner", sans-serif;
 }
 
-main{
+body{
     background-image: url(img/cork.png);
+}
+
+.container{
+    max-width: 1200px;
 }
