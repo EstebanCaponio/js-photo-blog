@@ -19,6 +19,9 @@ axios.get(endpoint)
                         </div>
                         <div class="card-body pt-0">
                             <p class="card-text">
+                            ${element.date}
+                            </p>
+                            <p class="card-text">
                             ${element.title}
                             </p>
                         </div>
