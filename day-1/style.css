@@ -7,6 +7,10 @@ body{
     background-image: url(img/cork.png);
 }
 
+main{
+    font-family: "Sometype Mono", monospace;
+}
+
 .container{
     max-width: 1200px;
 }
