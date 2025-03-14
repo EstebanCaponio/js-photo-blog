@@ -1,3 +1,8 @@
-body{
-    background-color: aqua;
+header{
+    background-image: url(img/wall.png);
+    font-family:"Edu TAS Beginner", cursive;
+}
+
+main{
+    background-image: url(img/cork.png);
 }
