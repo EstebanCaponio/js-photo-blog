@@ -20,7 +20,7 @@ axios.get(endpoint)
         cardsInfo.forEach(element => {
             cards += `<div class="col-12 col-md-6 col-lg-4">
                     <div class="card rounded-0 mb-5">
-                        <img class="translate-middle start-50" src="img/pin.svg" style="position:absolute;" alt="pin">
+                        <img class="translate-middle start-50 pin" src="img/pin.svg" style="position:absolute;" alt="pin">
                         <div class="card-body">
                             <img src="${element.url}" class="card-img-top rounded-0" alt="...">
                         </div>

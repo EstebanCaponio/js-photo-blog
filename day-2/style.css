@@ -32,13 +32,19 @@ main{
     max-width: 600px;
 }
 
-/* .my-container{
-    max-width: 600px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    translate: -50% -70%;
-} */
+.card{
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover{
+cursor: pointer;
+transform: scale(1.1) rotate(10deg);
+z-index: 1;
+}
+
+.card:hover .pin{
+    display: none;
+}
 
 #my-error{
     width: 80%;
