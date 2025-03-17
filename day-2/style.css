@@ -30,3 +30,7 @@ main{
     left: 50%;
     translate: -50% -70%;
 }
+
+#my-error{
+    width: 80%;
+}
