@@ -25,10 +25,10 @@ axios.get(endpoint)
                             <img src="${element.url}" class="card-img-top rounded-0" alt="...">
                         </div>
                         <div class="card-body pt-0">
-                            <p class="card-text">
+                            <p class="card-text mb-0">
                             ${element.date}
                             </p>
-                            <p class="card-text">
+                            <p class="font-title card-text fw-bolder fs-3">
                             ${element.title}
                             </p>
                         </div>

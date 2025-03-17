@@ -7,6 +7,10 @@ body{
     background-image: url(img/cork.png);
 }
 
+.font-title{
+    font-family:"Edu TAS Beginner", sans-serif;
+}
+
 main{
     font-family: "Sometype Mono", monospace;
 }
