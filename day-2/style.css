@@ -14,3 +14,20 @@ main{
 .container{
     max-width: 1200px;
 }
+
+.container-overlay{
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+}
+
+.my-container{
+    max-width: 500px;
+    max-height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
