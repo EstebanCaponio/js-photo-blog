@@ -6,6 +6,7 @@ const buttonElement = document.getElementById('btn');
 const imgElement = document.querySelector('.img-fluid');
 const myError = document.getElementById('my-error');
 const header = document.querySelector('header');
+const body = document.querySelector('body');
 const mainContainer = document.getElementById('main-container');
 
 // chiamata api
@@ -46,6 +47,7 @@ axios.get(endpoint)
             card[i].addEventListener('click', function () {
                 // debug
                 console.log(`ho cliccato l'immagine n.${i + 1}`);
+                body.classList.add('overflow-hidden');
                 containerOn.classList.replace('d-none', 'd-block');
                 const currentImg = document.querySelectorAll(".card-img-top");
                 imgElement.src = currentImg[i].src;
@@ -57,7 +59,7 @@ axios.get(endpoint)
         buttonElement.addEventListener('click', function () {
             console.log('ho cliccato');
             containerOn.classList.add('d-none');
-
+            body.classList.remove('overflow-hidden');
         })
 
 
